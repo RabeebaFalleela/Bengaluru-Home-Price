@@ -1,5 +1,5 @@
 ````markdown
-# Simple Streamlit Bengaluru Home Price Predictor
+# Streamlit Bengaluru Home Price Predictor
 
 ---
 
