@@ -1,7 +1,7 @@
 # Streamlit Bengaluru Home Price Predictor
 A simple web app to estimate housing prices in Bengaluru.
 
-![App Screenshot](beng-homprice-ss.jpg)
+![App Screenshot](beng-homprice-ss.png)
 ---
 
 ##  1) Setup
