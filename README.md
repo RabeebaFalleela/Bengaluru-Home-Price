@@ -2,7 +2,7 @@
 
 ---
 
-## ✅ 1) Setup
+##  1) Setup
 
 ```bash
 pip install -r requirements.txt
@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ---
 
-## ✅ 2) Place Model Files
+##  2) Place Model Files
 
 Place the following files inside the `models/` directory:
 
@@ -22,7 +22,7 @@ models/
 
 ---
 
-## ✅ 3) Run the App
+##  3) Run the App
 
 ```bash
 streamlit run streamlit_app.py
@@ -30,7 +30,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## ✅ Project Structure
+##  Project Structure
 
 ```
 .
@@ -44,7 +44,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## ✅ Features
+##  Features
 
 * Predicts Bengaluru house prices
 * Clean Streamlit UI
@@ -57,7 +57,7 @@ streamlit run streamlit_app.py
 
 ---
 
-## ✅ Requirements
+##  Requirements
 
 ```
 Python 3.9+
@@ -69,7 +69,7 @@ NumPy
 
 ---
 
-## ✅ Example Prediction Flow
+##  Example Prediction Flow
 
 1. Select Bengaluru location
 2. Choose BHK count
@@ -79,14 +79,14 @@ NumPy
 
 ---
 
-## ✅ Notes
+##  Notes
 
 * Ensure model + columns file are present inside `models/`
 * Values outside training range may reduce accuracy
 
 ---
 
-## ✅ Future Enhancements
+##  Future Enhancements
 
 * Add visualization
 * Allow CSV batch prediction
@@ -97,5 +97,4 @@ NumPy
 
 ---
 
- want it styled!
-```
+
