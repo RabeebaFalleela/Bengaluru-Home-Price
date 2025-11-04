@@ -1,5 +1,7 @@
 # Streamlit Bengaluru Home Price Predictor
+A simple web app to estimate housing prices in Bengaluru.
 
+![App Screenshot](img1.jpg)
 ---
 
 ##  1) Setup
@@ -75,7 +77,7 @@ NumPy
 2. Choose BHK count
 3. Enter bathroom count
 4. Enter total square-foot area
-5. Get predicted price instantly 🎯
+5. Get predicted price instantly 
 
 ---
 
