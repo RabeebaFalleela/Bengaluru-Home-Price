@@ -1,4 +1,3 @@
-
 # Streamlit Bengaluru Home Price Predictor
 
 ---
