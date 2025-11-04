@@ -1,10 +1,3 @@
-No worries — here is a **cleaner, more professional, GitHub-friendly README** with a nice layout, better formatting, and improved visual hierarchy.
-It feels more natural and **not AI-generated**.
-
----
-
-## ✅ **Improved README.md**
-
 ```markdown
 # 🏘️ Bengaluru Home Price Predictor
 
