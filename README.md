@@ -16,8 +16,8 @@ Place the following files inside the `models/` directory:
 
 ```
 models/
- ├── best_model.joblib
- └── columns.json
+ ── best_model.joblib
+ ── columns.json
 ```
 
 ---
@@ -34,12 +34,12 @@ streamlit run streamlit_app.py
 
 ```
 .
-├── models/
-│   ├── best_model.joblib
-│   └── columns.json
-├── streamlit_app.py
-├── requirements.txt
-└── README.md
+── models/
+  ── best_model.joblib
+  ── columns.json
+── streamlit_app.py
+── requirements.txt
+── README.md
 ```
 
 ---
