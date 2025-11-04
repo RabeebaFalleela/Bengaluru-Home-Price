@@ -2,39 +2,36 @@
 # 🏘️ Bengaluru Home Price Predictor
 
 A lightweight web application that estimates residential property prices across Bengaluru.  
-Just provide location, square footage, BHK, and bathroom count — the app returns an approximate market value.
+Just enter location, square footage, BHK, and bathroom count to get an estimated market value.
 
 ---
 
-## 📸 Screenshots
+## 📸 Preview
 
-| App Preview |
-|-------------|
-| ![App Screenshot](img1.jpg) |
+| App Screenshot |
+|----------------|
+| ![App](img1.jpg) |
 
 ---
 
-## 🚀 What This App Does
+## 🚀 Features
 
-- Predicts house prices based on:
-  - Location
-  - Total square footage
-  - BHK count
-  - Number of bathrooms
-- Simple UI built using Streamlit
-- Fast inference using a pre-trained ML model
+- Predicts property prices across Bengaluru
+- Clean, simple browser-based interface
+- Fast response using a trained ML model
+- Inputs: Location, Sqft, BHK, Bathroom count
 
 ---
 
 ## 🧠 How It Works
 
-The project uses:
-- Data preprocessing + cleaning
-- Feature engineering
-- One-hot encoding for categorical variables
-- Regression-based ML model (trained on Bengaluru housing data)
+This project uses:
+- Data preprocessing & cleaning  
+- Feature engineering  
+- One-hot encoding for location  
+- Regression-based ML model  
 
-Trained artifacts are stored under `models/`.
+Model artifacts are stored under `models/`.
 
 ---
 
@@ -48,16 +45,18 @@ Trained artifacts are stored under `models/`.
 
 ---
 
-## 📁 Folder Overview
+## 📁 Project Structure
 
 ```
 
-.
+Bengaluru-Home-Price/
+│
 ├── models/
 │   ├── best_model.joblib
 │   └── columns.json
-├── predict.py
+│
 ├── streamlit_app.py
+├── predict.py
 ├── requirements.txt
 ├── img1.jpg
 └── README.md
@@ -66,12 +65,12 @@ Trained artifacts are stored under `models/`.
 
 ---
 
-## ▶️ Run the App Locally
+## ▶️ Run Locally
 
-1) Clone repository  
+1) Clone the repo  
 ```
 
-git clone <your-repo-url>
+git clone <repo-url>
 cd Bengaluru-Home-Price
 
 ```
@@ -83,7 +82,7 @@ pip install -r requirements.txt
 
 ```
 
-3) Launch Streamlit  
+3) Start the app  
 ```
 
 streamlit run streamlit_app.py
@@ -92,29 +91,20 @@ streamlit run streamlit_app.py
 
 ---
 
-## 📦 Model
+## 🔮 Future Improvements
 
-The current version uses Linear Regression.
-You can later try:
-- Random Forest
-- XGBoost
+- Add more ML models
 - Hyperparameter tuning
-
----
-
-## ✅ Future Improvements
-
-- Add more model options
-- Improve UI
-- Include more property parameters
-- Deploy publicly
+- More city support
+- UI enhancements
+- Online deployment
 
 ---
 
 ## ✨ Author
 
 **Rabeeba Falleela**
-
 ```
 
+---
 
