@@ -2,18 +2,14 @@ import streamlit as st
 from predict import load_model_and_columns, predict_price
 import base64
 
-# =========================
 # PAGE CONFIG
-# =========================
 st.set_page_config(
     page_title="Bengaluru Home Price Predictor",
     page_icon="🏘️",
     layout="centered",
 )
 
-# =========================
 # BACKGROUND IMAGE + CSS
-# =========================
 def add_bg(local_image_path):
     with open(local_image_path, "rb") as image_file:
         encoded_string = base64.b64encode(image_file.read()).decode()
@@ -141,17 +137,13 @@ def add_bg(local_image_path):
     """
     st.markdown(css, unsafe_allow_html=True)
 
-# put your image name here (img1.jpg)
+# put your image name 
 add_bg("img1.jpg")
 
-# =========================
 # LOAD MODEL
-# =========================
 model, cols = load_model_and_columns()
 
-# =========================
 # HEADER (snug)
-# =========================
 st.markdown(
     """
     <h1 style="
@@ -169,9 +161,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# =========================
 # FORM BOX (no large gap)
-# =========================
 st.markdown('<div class="form-box">', unsafe_allow_html=True)
 st.markdown("### Enter Property Details:")
 
